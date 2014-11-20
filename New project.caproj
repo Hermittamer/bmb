@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2project>
+    <name>New project</name>
+    <description></description>
+    <version>1.0.0.0</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website>http://</author-website>
+    <app-id>com.mycompany.myapp</app-id>
+    <unique-id>34qx530vm76dx</unique-id>
+    <saved-with-version>18400</saved-with-version>
+    <used-plugins>
+        <plugin author="Scirra" id="Sprite" version="1">Sprite</plugin>
+    </used-plugins>
+    <used-behaviors>
+        <behavior author="Scirra" id="Platform" version="1">Platform</behavior>
+        <behavior author="Scirra" id="scrollto" version="1">Scroll To</behavior>
+        <behavior author="Scirra" id="solid" version="1">Solid</behavior>
+    </used-behaviors>
+    <used-effects />
+    <configurations>
+        <configuration exporter-descname="HTML5" exporter-id="html5" name="HTML5" />
+    </configurations>
+    <window-size>
+        <width>854</width>
+        <height>480</height>
+    </window-size>
+    <pixel-rounding>0</pixel-rounding>
+    <preview-effects>1</preview-effects>
+    <use-loader-layout>0</use-loader-layout>
+    <configuration-settings>
+        <prop name="Clear background">Yes</prop>
+        <prop name="Downscaling">Medium quality</prop>
+        <prop name="Enable WebGL">On</prop>
+        <prop name="Fullscreen in browser">Letterbox scale</prop>
+        <prop name="Fullscreen scaling">High quality</prop>
+        <prop name="Loader style">Progress bar &amp; logo</prop>
+        <prop name="Orientations">Any</prop>
+        <prop name="Pause on unfocus">No</prop>
+        <prop name="Physics engine">Box2D web</prop>
+        <prop name="Preload sounds">Yes</prop>
+        <prop name="Preview browser">Chrome</prop>
+        <prop name="Sampling">Point</prop>
+        <prop name="Use high-DPI display">Yes</prop>
+    </configuration-settings>
+    <object-folder>
+        <object-type name="JanitorWalkAnimation" sid="7982327604265824">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="ScrollTo" sid="5012208671374959">
+                    <behavior id="scrollto" />
+                </behavior-type>
+                <behavior-type name="Platform" sid="8702618273248149">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="317203036394144" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152" original-source="C:\Users\Bernadette\Desktop\ZBerna&apos;s Stuff\Game\Game Art\Rent simulator\Animation\Hero\Janitor\Janitor-Slow-Attack-Animation.gif">
+                        <collision-poly>
+                            <point x="0.333333" y="0.333333" />
+                            <point x="0.666667" y="0.333333" />
+                            <point x="0.818182" y="0.484848" />
+                            <point x="0.757576" y="0.757576" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="1" loop="0" name="Animation2" pingpong="0" repeatcount="1" repeatto="0" sid="5077149147551165" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="GroundSprite" sid="1393854604632309">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Solid" sid="8729335875169649">
+                    <behavior id="solid" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="1" loop="0" name="Default" pingpong="0" repeatcount="1" repeatto="0" sid="1700404787779591" speed="5">
+                    <frame duration="1" hotspotX="0.5" hotspotY="0.5" />
+                </animation>
+            </animation-folder>
+        </object-type>
+        <object-type name="JanitorSlowAttackAnimation" sid="4371682981091373">
+            <plugin id="Sprite" />
+            <behaviors>
+                <behavior-type name="Platform" sid="6212692009422783">
+                    <behavior id="Platform" />
+                </behavior-type>
+            </behaviors>
+            <animation-folder>
+                <animation framecount="6" loop="1" name="Attack" pingpong="0" repeatcount="1" repeatto="0" sid="9525027024924489" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152">
+                        <collision-poly>
+                            <point x="0.333333" y="0.333333" />
+                            <point x="0.666667" y="0.333333" />
+                            <point x="0.818182" y="0.484848" />
+                            <point x="0.757576" y="0.757576" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152">
+                        <collision-poly>
+                            <point x="0.333333" y="0.333333" />
+                            <point x="0.666667" y="0.333333" />
+                            <point x="0.818182" y="0.484848" />
+                            <point x="0.727273" y="0.727273" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152">
+                        <collision-poly>
+                            <point x="0.363636" y="0.363636" />
+                            <point x="0.636364" y="0.363636" />
+                            <point x="0.878788" y="0.484848" />
+                            <point x="0.787879" y="0.787879" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152">
+                        <collision-poly>
+                            <point x="0.272727" y="0.272727" />
+                            <point x="0.484848" y="0.212121" />
+                            <point x="0.727273" y="0.272727" />
+                            <point x="0.757576" y="0.484848" />
+                            <point x="0.757576" y="0.757576" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152">
+                        <collision-poly>
+                            <point x="0.333333" y="0.333333" />
+                            <point x="0.484848" y="0.333333" />
+                            <point x="0.757576" y="0.242424" />
+                            <point x="0.969697" y="0.484848" />
+                            <point x="0.939394" y="0.939394" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152">
+                        <collision-poly>
+                            <point x="0.363636" y="0.363636" />
+                            <point x="0.636364" y="0.363636" />
+                            <point x="0.878788" y="0.484848" />
+                            <point x="0.727273" y="0.727273" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                </animation>
+                <animation framecount="3" loop="0" name="WalkCycle" pingpong="0" repeatcount="1" repeatto="0" sid="660282723983107" speed="5">
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152" original-source="C:\Users\Bernadette\Desktop\ZBerna&apos;s Stuff\Game\Game Art\Rent simulator\Animation\Hero\Janitor\Janitor-Walk-Animation.gif">
+                        <collision-poly>
+                            <point x="0.047619" y="0.333333" />
+                            <point x="0.497835" y="0.363636" />
+                            <point x="0.948052" y="0.363636" />
+                            <point x="0.982684" y="0.484848" />
+                            <point x="0.961039" y="0.727273" />
+                            <point x="0.497835" y="1" />
+                            <point x="0.012987" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152" original-source="C:\Users\Bernadette\Desktop\ZBerna&apos;s Stuff\Game\Game Art\Rent simulator\Animation\Hero\Janitor\Walk FM 2.png">
+                        <collision-poly>
+                            <point x="0.363636" y="0.363636" />
+                            <point x="0.636364" y="0.363636" />
+                            <point x="0.878788" y="0.484848" />
+                            <point x="0.757576" y="0.757576" />
+                            <point x="0.484848" y="1" />
+                            <point x="0.0909091" y="0.909091" />
+                            <point x="0" y="0.484848" />
+                        </collision-poly>
+                    </frame>
+                    <frame duration="1" hotspotX="0.515152" hotspotY="0.515152" />
+                </animation>
+            </animation-folder>
+        </object-type>
+    </object-folder>
+    <families />
+    <layout-folder>
+        <layout>Layout 1.xml</layout>
+    </layout-folder>
+    <event-folder>
+        <event-sheet>Event sheet 1.xml</event-sheet>
+    </event-folder>
+    <global-instances />
+    <sounds-folder />
+    <music-folder />
+    <files-folder>
+        <file-folder name="Icons">
+            <file name="icon-16.png" />
+            <file name="icon-32.png" />
+            <file name="icon-114.png" />
+            <file name="icon-128.png" />
+            <file name="icon-256.png" />
+            <file name="loading-logo.png" />
+        </file-folder>
+    </files-folder>
+</c2project>
