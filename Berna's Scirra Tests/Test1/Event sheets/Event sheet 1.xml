@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <event-block sid="9966037599893515">
+            <conditions>
+                <condition behavior="Platform" id="7" name="On stopped" sid="4105314819291564" type="JanitorSlowAttackAnimation" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="4368439681140358">
+            <conditions>
+                <condition behavior="Platform" id="8" name="On moved" sid="1613893357374866" type="JanitorWalkAnimation" />
+            </conditions>
+            <actions />
+        </event-block>
+        <event-block sid="941094274612924">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="6414039911152188" type="JanitorSlowAttackAnimation">
+                    <param id="0" name="Object">MONEYSPRITE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="8257025244294509" type="MONEYSPRITE" />
+            </actions>
+        </event-block>
+        <event-block sid="6325912577828801">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="8282461132745992" type="JanitorSlowAttackAnimation">
+                    <param id="0" name="Object">BIGBOSSSPRITE</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-3" name="Set position" sid="6705697102725553" type="JanitorSlowAttackAnimation">
+                    <param id="0" name="X">419</param>
+                    <param id="1" name="Y">242</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
